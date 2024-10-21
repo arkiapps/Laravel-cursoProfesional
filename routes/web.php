@@ -3,14 +3,14 @@
 
 use Illuminate\Support\Facades\Route;
 
-/*
+
 Route::get('/', function () {
     return view('welcome');
 });
-*/
+
 
 // Metodos estaticos
-Route::view('/', 'welcome')->name('welcome');
+Route::view('/', 'landing.about')->name('about');
 //Route.view('/', 'welcome').name('welcome');
 
 // Route::view(); //
