@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background: linear-gradient(45deg, #3b82f6, #9333ea, #f43f5e);
+            background: linear-gradient(100deg, #b10101, #04209e, #22800a, #9403b8, #000000);
             background-size: 400% 400%; /* Efecto de movimiento de fondo */
             animation: gradient 15s ease infinite;
             font-family: Arial, sans-serif;

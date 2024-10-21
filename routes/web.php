@@ -10,8 +10,9 @@ Route::get('/', function () {
 
 
 // Metodos estaticos
-Route::view('/', 'landing.about')->name('about');
+Route::view('/', 'landing.index')->name('index');
 //Route.view('/', 'welcome').name('welcome');
+Route::view('/about', 'landing.about')->name('about');
 
 // Route::view(); //
 // Route::get('mi/ruta', ControlladorDeLaRuta);
